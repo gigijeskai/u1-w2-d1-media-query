@@ -239,8 +239,8 @@ footer a {
     padding: 0%;
     }
 }
-@media screen and (min-width: 32inx) {
-320dy {
+@media screen and (min-width: 32px) {
+body {
         font-size: 8px;
         line-height: 18px;
     }
@@ -258,7 +258,7 @@ footer a {
         position: fixed;
         bottom: 80vh;
         right: 16px;
-        text-align: rightin    }
+        text-align: right   }
 }
 /* media query fino da 641px a 1200px  */
 

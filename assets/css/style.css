@@ -236,6 +236,7 @@ footer a {
 @media screen and (max-width: 640px) {
       header  {
     position: static;
+    padding: 0%;
     }
 }
 @media screen and (max-width: 640px) {
@@ -244,11 +245,8 @@ footer a {
         line-height: 18px;
     }
 }
-@media screen and (max-width: 640px) {
-    header {
-      padding: 0%;
-    }
-}
+
+
 @media screen and (max-width: 640px) {
     .toTop {
         position: static;
@@ -263,7 +261,15 @@ footer a {
         text-align: right;
     }
 }
+
 /* media query fino da 641px a 1200px */
+
+@media screen and (max-width: 1200px) {
+    th, td {
+        margin: 0 auto;
+        padding: 10px 59px;
+    }
+    }
 
 @media screen and (max-width: 1200px) {
     body {
@@ -284,6 +290,7 @@ footer a {
         line-height: 54px;
     }
 }
+
 @media screen and (min-width: 1201px) {
     th, td {
         margin: 0 auto;
@@ -304,3 +311,9 @@ footer a {
     position: static;
     }
 }
+/* media query per la stampa */
+@media print {
+    header, iframe, section, aside, footer {
+        display: none;
+    }
+} 

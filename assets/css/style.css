@@ -234,6 +234,11 @@ footer a {
 
 /* media query fino a 640px */
 @media screen and (max-width: 640px) {
+      header  {
+    position: static;
+    }
+}
+@media screen and (max-width: 640px) {
     body {
         font-size: 8px;
         line-height: 18px;
@@ -244,12 +249,31 @@ footer a {
       padding: 0%;
     }
 }
+@media screen and (max-width: 640px) {
+    .toTop {
+        position: static;
+        text-align: right;
+    }
+}
+@media screen and (max-width: 640px) {
+    .social {
+        position: fixed;
+        bottom: 80vh;
+        right: 16px;
+        text-align: right;
+    }
+}
 /* media query fino da 641px a 1200px */
 
 @media screen and (max-width: 1200px) {
     body {
         font-size: 16px;
         line-height: 36px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    header {
+        padding: 0%;
     }
 }
 
@@ -272,5 +296,11 @@ footer a {
         height: 60vh;
         margin-bottom: 2em;
         border-radius: 20px;
+    }
+}
+@media screen and (min-width: 1201px) {
+      header  {
+    width: 100%;
+    position: static;
     }
 }
